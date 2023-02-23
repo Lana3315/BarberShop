@@ -1,0 +1,144 @@
+:root {
+  /* Font */
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Text colors  */
+  --main-txt-cl: #555555;
+  --secondary-txt-cl: #303030;
+  --accent-txt-cl: #ff6c00;
+  --light-txt-cl: #ffffff;
+  --dark-txt-cl: #000000;
+  --grey-txt-cl: #9da4bd;
+  --grey-cl-20: rgba(157, 164, 189, 0.2);
+  --grey-cl-40: rgba(157, 164, 189, 0.4);
+  --grey-cl-60: rgba(157, 164, 189, 0.6);
+
+  /* Background colors */
+  --main-bg-cl: #555555;
+  --secondary-bg-cl: #303030;
+  --accent-bg-cl: #ff6c00;
+  --light-bg-cl: #ffffff;
+  --dark-bg-cl: #191c26;
+  --grey-bg-cl: #9da4bd;
+}
+body {
+  font-family: var(--main-font);
+}
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* header section */
+.nav-navigation {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--dark-bg-cl);
+}
+.btn-white_online {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  color: var(--dark-bg-cl);
+}
+/* sidebar */
+.social-links {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #ff6c00;
+}
+/* hero */
+.sub-title_black {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: var(--secondary-font);
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: black;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+/* slider */
+.btn-back {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  color: rgba(157, 164, 189, 0.6);
+}
+.btn-forward {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  color: black;
+}
+/* about */
+.sub-title_white {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+.sec-title_about {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.first-text_about {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.sec-text_about {
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.btn-online_black {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+/* services and prices */
+.white-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: black;
+}
