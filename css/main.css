@@ -134,6 +134,29 @@ a {
   text-transform: uppercase;
   color: var(--secondary-txt-cl);
 }
+/* benefit section */
+.benefit-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--secondary-txt-cl);
+}
+.benefit-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--secondary-txt-cl);
+}
+.benefit-plus {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.375;
+  text-align: center;
+  color: var(--accent-txt-cl);
+}
 /* services and prices */
 .white-title {
   font-family: var(--secondary-font);
@@ -170,5 +193,13 @@ a {
   line-height: 1.66;
   letter-spacing: 0.02em;
   text-decoration-line: underline;
+  color: var(--grey-txt-cl);
+}
+/* footer */
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
   color: var(--grey-txt-cl);
 }
