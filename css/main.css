@@ -105,14 +105,14 @@ a {
   text-transform: uppercase;
   color: #303030;
 }
-.sec-title_about {
+.black-title {
   font-family: var(--secondary-font);
   font-size: 42px;
   line-height: 1.16;
   letter-spacing: 0.05em;
   color: #303030;
 }
-.first-text_about {
+.first-text_white {
   font-size: 18px;
   line-height: 1.66;
   letter-spacing: 0.02em;
