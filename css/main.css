@@ -57,7 +57,7 @@ a {
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
-  color: #ff6c00;
+  color: var(--accent-txt-cl);
 }
 /* hero */
 .sub-title_black {
@@ -78,7 +78,7 @@ a {
   font-size: 18px;
   line-height: 1.66;
   letter-spacing: 0.02em;
-  color: #9da4bd;
+  color: var(--grey-txt-cl);
 }
 /* slider */
 .btn-back {
@@ -103,27 +103,27 @@ a {
   font-size: 11px;
   line-height: 1.36;
   text-transform: uppercase;
-  color: #303030;
+  color: var(--secondary-txt-cl);
 }
 .black-title {
   font-family: var(--secondary-font);
   font-size: 42px;
   line-height: 1.16;
   letter-spacing: 0.05em;
-  color: #303030;
+  color: var(--secondary-txt-cl);
 }
 .first-text_white {
   font-size: 18px;
   line-height: 1.66;
   letter-spacing: 0.02em;
-  color: #555555;
+  color: var(--main-txt-cl);
 }
 
 .sec-text_about {
   font-size: 14px;
   line-height: 1.85;
   letter-spacing: 0.02em;
-  color: #555555;
+  color: var(--main-txt-cl);
 }
 .btn-online_black {
   font-family: var(--main-font);
@@ -132,7 +132,7 @@ a {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #303030;
+  color: var(--secondary-txt-cl);
 }
 /* services and prices */
 .white-title {
@@ -141,4 +141,34 @@ a {
   line-height: 1.16;
   letter-spacing: 0.05em;
   color: black;
+}
+/* team section */
+.title-name {
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
+}
+.sub-title {
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-txt-cl);
+}
+/* contacts */
+.title-wh {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--light-txt-cl);
+}
+.text-contacts {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: var(--grey-txt-cl);
 }
